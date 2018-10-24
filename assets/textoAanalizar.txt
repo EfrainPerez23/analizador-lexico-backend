@@ -1,0 +1,5 @@
+const a = 5 * 9;
+let vector = [];
+const error: number[] = [];
+vector.push(a);
+print(vector);
