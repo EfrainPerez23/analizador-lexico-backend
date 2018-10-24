@@ -17,17 +17,21 @@ Ince, Abraham 8-914-1350
 
 Pérez, Efraín 8-902-309
 
-Para poder ejecutar el servidor, debe instalar python 3.6+, e igualmente debe correr esta linea de comando que instalar las librerias de flask.
+# Pasos para configurar el proyecto #
 
+ 
+* Instalar python 3.6+. Esto dependera del sistema operativo que tiene
+  * **Windows:** utilizar este link [Python](https://www.python.org/downloads/)
+  * **Mac OS:** utilizar este link [Python](https://www.python.org/downloads/)
+  * **Linux:** 
+        `$ sudo apt-get update`
+        `$ sudo apt-get install python3.6`
 
-```
-  pip3 install -r requirements.txt
-```
+* Instalar las dependecias de Flask que utiliza el proyecto. Debe utilizar esta linea de comando para instalar estas.
+  `pip3 install -r requirements.txt`
+  
+* Ejecutar el archivo `app.py` con esta linea de comando `
 
-Y podra ejecutar el programa utilizando la siguiente linea de comando
+* Podra ejecutar el programa utilizando la siguiente linea de comando `python3 app.py`
 
-
-```
-  python3 app.py
-```
-y debe estar en el puerto 5000
+* Finalmente, debe estar ejecutandose en el puerto 5000
